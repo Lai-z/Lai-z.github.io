@@ -8,7 +8,7 @@
     <link href="/post/Redis%E7%9A%84%E7%AE%80%E4%BB%8B.html"/>
     <url>/post/Redis%E7%9A%84%E7%AE%80%E4%BB%8B.html</url>
     
-    <content type="html"><![CDATA[<h2 id="Redis简介"><a href="#Redis简介" class="headerlink" title="Redis简介"></a>Redis简介</h2><h4 id="为什么使用Redis而不是Mysql？"><a href="#为什么使用Redis而不是Mysql？" class="headerlink" title="为什么使用Redis而不是Mysql？"></a>为什么使用Redis而不是Mysql？</h4><ul><li>Mysql 关系型数据库，存储在硬盘 ；</li><li>Redis是基于内存的数据库系统 ；</li><li>当数据达到一定量时,Redis读取速度显然快于Mysql；</li><li>Redis支持数据持久化、主从复制、哨兵模式</li></ul><h4 id="Redis数据类型"><a href="#Redis数据类型" class="headerlink" title="Redis数据类型"></a>Redis数据类型</h4><ol><li><p>基本数据类型</p><ul><li><p>字符串 String </p></li><li><p>列表 List</p></li><li><p>集合 Set</p></li><li><p>有序集合 SortedSet</p></li><li><p>哈希 Hash</p></li></ul></li><li><p>高级数据类型</p><ul><li>消息队列 Stream</li><li>地理空间 Geospatial</li><li>HyperLogLog</li><li>位图 Bitmap</li><li>位域 Bitfield</li></ul></li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="Redis简介"><a href="#Redis简介" class="headerlink" title="Redis简介"></a>Redis简介</h2><h4 id="为什么使用Redis而不是Mysql？"><a href="#为什么使用Redis而不是Mysql？" class="headerlink" title="为什么使用Redis而不是Mysql？"></a>为什么使用Redis而不是Mysql？</h4><ul><li><p>Mysql 关系型数据库，存储在硬盘 ；</p></li><li><p>Redis是基于内存的数据库系统 ；</p></li><li><p>当数据达到一定量时,Redis读取速度显然快于Mysql；</p></li><li><p>Redis支持数据持久化、主从复制、哨兵模式</p></li></ul><h4 id="Redis数据类型"><a href="#Redis数据类型" class="headerlink" title="Redis数据类型"></a>Redis数据类型</h4><ol><li><p>基本数据类型</p><ul><li><p>字符串 String </p></li><li><p>列表 List</p></li><li><p>集合 Set</p></li><li><p>有序集合 SortedSet</p></li><li><p>哈希 Hash</p></li></ul></li><li><p>高级数据类型</p><ul><li>消息队列 Stream</li><li>地理空间 Geospatial</li><li>HyperLogLog</li><li>位图 Bitmap</li><li>位域 Bitfield</li></ul></li></ol>]]></content>
     
     
     
